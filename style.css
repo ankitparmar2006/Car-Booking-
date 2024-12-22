@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* <!--====================  navbar cording start from here   ===================== --> */
+
+#navbar {
+width: 100%;
+height: 60px;
+background-color: orange;
+position: fixed;
+z-index: 99;
+
+}
+
+#navbar i {
+  font-size: 25px;
+  color: black;
+
+}
+.cart1 {
+  font-size: 10px;
+  font-weight: bolder;
+  color: red;
+  font-family: Georgia;
+}
+.cart-button {
+  background-color: orange;
+  border: none;
+}
+
+#navbar nav ul li {
+    list-style: none;
+}
+
+#navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#navbar nav ul li a:hover{
+    color: red;
+ }
+
+#navbar nav ul {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#navbar nav ul h1 {
+    
+font-family:  sans-serif;
+margin-right: 200px;
+font-size: 30px;
+margin-top: -10px;
+
+}
+
+
+#navbar nav ul h1 span {
+color: red;
+font-size: 20px;
+}
+
+#navbar nav ul .signup {
+    margin-left: 30px;
+background-color: blue;
+color: whitesmoke;
+width: 60px;
+height: 25px;
+border-radius: 10px;
+
+}
+
+
+#navbar nav .nav-img {
+    width: 110px;
+    margin-top: -20px;
+    margin-left: -120px;
+}
+
+.add-cart-button {
+  width: 100px;
+  height: 35px;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 10px;  
+  margin-top: 30px;
+}
+.add-cart-button:hover {
+background-color: orangered;
+color: black;
+}
+.remove-cart-button {
+width: 100px;
+height: 35px;
+background-color: blue;
+border-radius: 10px;
+color: white;
+font-weight: bolder;
+font-size: 10px;  
+}
+.remove-cart-button:hover {
+  background-color: orangered;
+  color: black;
+  }
+
+/* <!--====================  home  cording start from here   ===================== --> */
+
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+#home img {
+width: 100%;
+position: absolute;
+margin-top: 50px;
+}
+#home .home-text {
+    position: relative;
+    padding-top: 15%;
+    margin-left: 100px;
+}
+
+#home .home-text  h2 {
+
+font-size: 40px;
+}
+
+#home .home-text  h2 span { 
+    color: red;
+}
+
+
+#home .home-text  h3 {
+margin-top: 20px;
+margin-left: 90px;
+}
+
+#home .home-text  h3 span { 
+    color: orangered;
+
+}
+
+
+
+#home .home-text  p {
+    margin-top: 20px;
+    margin-left: 150px;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #home .home-text h4 {
+
+margin-top: 60px;
+margin-left: 40px;
+
+    }
+    #home .home-text i {
+    font-size: 14px;
+        color: orangered;
+    }
+
+
+
+ 
+/* <!--====================  home  cording end from here   ===================== --> */
+
+
+
+/* <!--====================  we offer  cording start from here   ===================== --> */
+#offer {
+    width: 100%;
+    height: 700px;
+    padding-top: 120px;
+    
+}
+
+#offer h4 {
+margin-left: 43%;
+color: orangered;
+}
+
+#offer h2 {
+    margin-left: 37%;
+    font-size: 35px;
+    margin-top: 20px;
+    }
+    
+/* .swiper {
+    width: 100%;
+    height: 100%;
+  } */
+
+  .img-1 {
+    width: 100%;
+    height: 60px;
+  }
+
+  .swiper-box1 {
+    width: 350px;
+    height: 370px;
+    border: 2px solid red;
+    background-color: rgba(255, 166, 0, 0.532);
+    margin-top: 30px;
+
+  }
+
+.swiper-text {
+
+margin-top: 20px;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  
+  .swiper-text {
+    position: absolute;
+  }
+
+  .swiper-text h3 {
+    margin-left: 65px;
+  }
+
+  .swiper-text p {
+    color: white;
+  }
+  .swiper-text span {
+    color: orangered;
+  }
+/* <!--====================  we offer cording start from here   ===================== --> */
+
+
+
+/* <!--====================  footer cording start from here   ===================== --> */
+
+#footer {
+  width: 100%;
+  height: 400px;
+  background-color: orangered;
+}
+
+.footer-div {
+display: grid;
+grid-template-columns: auto auto auto auto;
+}
+/* <!--====================  footer cording end from here   ===================== --> */
+
+
+
+
+
+
