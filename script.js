@@ -25,8 +25,9 @@ addcart=()=>{
     return;
    }
 
+ 
+  temp=temp+1;
   cart1.innerHTML=temp;
-  temp++;
 
 }
 
@@ -35,13 +36,17 @@ addcart=()=>{
 
    let cart1= document.querySelector(".cart1")
 
-   if (temp<0){
+   if (temp<1){
     alert("Item does not exist") 
     return;
    }
  
-   cart1.innerHTML=temp;
-   temp--;
+  else
+  {
+    temp=temp-1;
+    cart1.innerHTML=temp;
+  }
+  
    
   
  
@@ -50,4 +55,21 @@ addcart=()=>{
 
  
       //<!--====================  add to cart  work end from here   ===================== -->
+
+//<!--====================  add to cart  work end from here   ===================== -->
+// let sign =()=>{
+
+//   let yes=confirm("you want to signup")
+
+//   if (yes) {
+// alert("ok")
+//   }
+//   else {
+//     alert("signup filed")
+//   }
+
+// }
+
+//<!--====================  add to cart  work end from here   ===================== -->
+
 
