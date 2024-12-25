@@ -42,12 +42,12 @@ let logout=()=>{
         let a =confirm("You want to logout")
     
         if (a){
-            alert("logouted")
+            alert("your account is logout")
         }
     
     
     else{
-        alert("cancelled")
+        alert("logout filed")
     }
     }
     

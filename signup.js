@@ -119,4 +119,8 @@ localStorage.setItem("usercpass",cpass)
 
 window.location.href="login.html"
 
+
+return false ;
+
+
 }

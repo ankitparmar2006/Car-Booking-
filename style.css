@@ -355,7 +355,6 @@ input::placeholder{
 }
 
 #profile .profile-inf {
-
   justify-content: center;
   display: grid;
 
@@ -382,6 +381,62 @@ input::placeholder{
 
 
 /* ///<!--==================== profile  cording end from here   ===================== --> */
+
+
+/* <!--==================== about cording start from here   ===================== --> */
+
+#about {
+
+  width: 100%;
+  height: auto;
+  padding-top: 80px
+
+}
+
+#about .about-div1 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#about .about-div1 .about-div2 img{
+width: 100%;
+position: relative;
+margin-top: 60px;
+}
+
+#about .about-div1 .about-div2 {
+  width: 600px;
+}
+
+#about .about-div1 .about-div3 {
+
+  width: 600px;
+  height: 500px;
+ background-color: blue;
+margin-left: -300px;
+border-radius: 10px;
+color: white;
+}
+
+#about .about-div1 .about-div3:hover {
+  color: black;
+
+ background-color: rgb(0, 255, 110);
+
+}
+
+#about .about-div1 .about-div3 h1 {
+margin-top: 20px;
+margin-left: 200px;
+font-size: 25px;
+}
+#about .about-div1 .about-div3 h2 {
+  margin-top: 20px;
+  margin-left: 240px;
+  font-size: 25px;
+  }
+  
+/* <!--====================  about cording end from here   ===================== --> */
+
 
 
 
