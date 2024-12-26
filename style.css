@@ -94,6 +94,7 @@ border-radius: 10px;
   font-weight: bolder;
   font-size: 10px;  
   margin-top: 30px;
+  margin-left: 60px;
 }
 .add-cart-button:hover {
 background-color: orangered;
@@ -215,11 +216,9 @@ color: orangered;
     border: 2px solid red;
     background-color: rgba(255, 166, 0, 0.532);
     margin-top: 30px;
-
   }
 
 .swiper-text {
-
 margin-top: 20px;
 }
 
@@ -253,6 +252,7 @@ margin-top: 20px;
   .swiper-text span {
     color: orangered;
   }
+ 
 /* <!--====================  we offer cording start from here   ===================== --> */
 
 
@@ -393,47 +393,225 @@ input::placeholder{
 
 }
 
-#about .about-div1 {
+#about .about-main {
   display: grid;
   grid-template-columns: auto auto;
 }
-#about .about-div1 .about-div2 img{
+#about .about-main .about-div1 img{
 width: 100%;
 position: relative;
-margin-top: 60px;
+margin-top: 90px;
+margin-left: 50px;
 }
 
-#about .about-div1 .about-div2 {
+#about .about-main .about-div1 {
   width: 600px;
 }
 
-#about .about-div1 .about-div3 {
+#about .about-main .about-div2 {
 
   width: 600px;
-  height: 500px;
- background-color: blue;
+height: auto;
+  background-color: green;
 margin-left: -300px;
 border-radius: 10px;
 color: white;
 }
 
-#about .about-div1 .about-div3:hover {
+#about .about-main .about-div2:hover {
   color: black;
-
- background-color: rgb(0, 255, 110);
-
 }
 
-#about .about-div1 .about-div3 h1 {
-margin-top: 20px;
+#about .about-main .about-div2 h1 {
+margin-top: 13px;
 margin-left: 200px;
 font-size: 25px;
 }
-#about .about-div1 .about-div3 h2 {
-  margin-top: 20px;
+
+#about .about-main .about-div2 h2 {
+  margin-top: 15px;
   margin-left: 240px;
   font-size: 25px;
+}
+
+#about .about-main .about-div2 .about-text {
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+margin-top: 15px;
+gap: 10px;
+}
+
+#about .about-main .about-div2 .about-text .about-box1 {
+  width: 200px;
+  height: 100px;
+  background-color: orangered;
+  padding: 15px;
+  border-radius: 10px;
+} #about .about-main .about-div2 .about-text .about-box1:hover {
+background-color: transparent;
+border: 1px solid blue;
+}
+
+#about .about-main .about-div2 .about-text .about-box2 {
+  width: 200px;
+  height: 100px;
+  background-color: orangered;
+  padding: 15px;
+  border-radius: 10px;
   }
+  #about .about-main .about-div2 .about-text .about-box2:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    }
+
+  #about .about-main .about-div2 .about-text .about-box3 {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    padding-left: 60px;
+   }
+   #about .about-main .about-div2 .about-text .about-box3:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    }
+
+    #about .about-main .about-div2 .about-text .about-box4 {
+      width: 200px;
+      height: 100px;
+      background-color: orangered;
+      padding: 15px;
+      border-radius: 10px;
+      }
+      #about .about-main .about-div2 .about-text .about-box4:hover {
+        background-color: transparent;
+        border: 1px solid blue;
+        }
+      #about .about-main .about-div2 .about-text .about-box5 {
+        width: 200px;
+        height: 100px;
+        background-color: green;
+        padding: 15px;
+        border-radius: 10px;
+        }
+        #about .about-main .about-div2 .about-text .about-box5:hover {
+          background-color: transparent;
+          border: 1px solid blue;
+          }
+
+        #about .about-main .about-div2 .about-text .about-box6 {
+          width: 200px;
+          height: 100px;
+          background-color: orangered;
+          padding: 15px;
+          border-radius: 10px;
+          }
+          #about .about-main .about-div2 .about-text .about-box6:hover {
+            background-color: transparent;
+            border: 1px solid blue;
+            }
+
+          #about .about-main .about-div2 .about-text .about-box7 {
+            width: 200px;
+            height: 100px;
+            background-color: orangered;
+            padding: 15px;
+            border-radius: 10px;
+            }
+            #about .about-main .about-div2 .about-text .about-box7:hover {
+              background-color: transparent;
+              border: 1px solid blue;
+              }
+
+            #about .about-main .about-div2 .about-text .about-box8 {
+              width: 200px;
+              height: 100px;
+              background-color: orangered;
+              padding: 15px;
+              border-radius: 10px;
+              }
+              #about .about-main .about-div2 .about-text .about-box8:hover {
+                background-color: transparent;
+                border: 1px solid blue;
+                }
+/* //-------------------------------------------------------------------- */
+#about .about-main .about-div2 .about-span {
+  display: grid;
+  grid-template-columns: auto ;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+                #about .about-main .about-div2 .about-box9 {
+                  width: 300px;
+                  height: 100px;
+                  background-color: orangered;
+                  padding: 15px;
+                  border-radius: 10px;
+                  }
+                  #about .about-main .about-div2  .about-box9:hover {
+                    background-color: transparent;
+                    border: 1px solid blue;
+                    }
+                    #about .about-main .about-div2 .about-box10 {
+                      width: 300px;
+                      height: 100px;
+                      background-color: orangered;
+                      padding: 15px;
+                      border-radius: 10px;
+                      }
+                      #about .about-main .about-div2  .about-box10:hover {
+                        background-color: transparent;
+                        border: 1px solid blue;
+                        }
+
+                        #about .about-main .about-div2  .about-box11 {
+                          width: 300px;
+                          height: 100px;
+                          background-color: orangered;
+                          padding: 15px;
+                          border-radius: 10px;
+                          }
+                          #about .about-main .about-div2  .about-box11:hover {
+                            background-color: transparent;
+                            border: 1px solid blue;
+                            }
+                            #about .about-main .about-div2  .about-box12 {
+                              width: 300px;
+                              height: 100px;
+                              background-color: orangered;
+                              padding: 15px;
+                              border-radius: 10px;
+                              }
+                              #about .about-main .about-div2  .about-box12:hover {
+                                background-color: transparent;
+                                border: 1px solid blue;
+                                }                    
+          /* <!----------------------- about button cording here --------------------- --> */
+
+#about .about-main .about-div2 .about-btn {
+
+  margin-left: 210px;
+  width: 180px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: blue;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+
+
+#about .about-main .about-div2 .about-btn:hover{
+  background-color: orangered;
+  color: black;
+
+}
   
 /* <!--====================  about cording end from here   ===================== --> */
 
@@ -443,12 +621,51 @@ font-size: 25px;
 #footer {
   width: 100%;
   height: 400px;
-  background-color: orangered;
+  background-color: black
+  ;
 }
 
 .footer-div {
 display: grid;
+color: white;
 grid-template-columns: auto auto auto auto;
+}
+
+#footer .footer-div i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#footer .footer-div .footer-carbook {
+  margin-left: 40px;
+  margin-top: 40px;
+
+}
+#footer .footer-div span {
+  color: red;
+}
+
+
+#footer .footer-div p {
+  margin-left: 40px;
+  margin-top: 40px;
+
+}
+
+#footer .footer-div h2 {
+  margin-left: -40px;
+  margin-top: 40px;
+}
+
+#footer .footer-div .footer-a a{
+display: grid;
+grid-template-columns: auto;
+gap: 10px;
+margin-top: 30px;
+color: white;
+text-decoration: none;
 }
 /* <!--====================  footer cording end from here   ===================== --> */
 
