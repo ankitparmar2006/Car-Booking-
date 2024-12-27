@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CarBook</title>
 
 <!--====================  this is style css link  ===================== -->
 <link rel="stylesheet" href="style.css"></head>
@@ -15,41 +15,63 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- ===========    aos link        ==================-->
+
+ 
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
 <body>
  <!-- <div id="loco"> -->
 
+<main>
 
-
-    <!--====================  navbar cording start from here   ===================== -->
+    <!--====================  navbar cording start from here  ===================== -->
         <header id="navbar">
             <nav>
                   
                 <ul>  
                     <h1>Car<span>Book</span></h1>
-                    <img src="img/about.png" alt="" class="nav-img">
+                    <img src="img/about.png" alt="" class="nav-img" data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="400"
+                    data-aos-duration="2000">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="./index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#home">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
                         <a href="offer.html">Offer</a>
                     </li>
                     <li>
-                        <a href="#home">About</a>
+                        <a href="service.html">Service</a>
                     </li>
                     <li>
                         <a href="#home">Review</a>
                     </li>
                 <span>
-                    <button class="signup">Sign up</button>
-                    <button class="signin">Sign in</button>
+                    <button class="cart-button"> <i class="fa-solid fa-cart-shopping"><span class="cart1">0</span></i></button>
+               
+                   <a href="signup.html"><button class="signup">Sign up</button></a>
+                
                 </span>
+
+                <li>
+                    <a href="profile.html"><i class="fa-regular fa-user"></i> </a>
+                </li>
                 </ul>
               
             </nav>
         </header>
+
+            <!--====================  navbar cording end from here   ===================== -->
 
             <!--====================  navbar cording end from here   ===================== -->
    <main>
@@ -58,14 +80,16 @@
 
 
     <section id="home">
-        <img src="./img/iii.png" alt="">
+        <img src="./img/iii.png" alt="" data-aos="zoom-out-down">
 
         <div class="home-text">
             
-        <h2>Your <span>Journey </span> , Our <span>Cars</span></h2>
-        <h3>Best new <span> Rental Car</span> deals</h3>
+        <h2 data-aos="fade-down"
+        data-aos-duration="3000" >Your <span >Journey </span> , Our <span>Cars</span></h2>
+        <h3 data-aos="fade-down-left">Best new <span> Rental Car</span> deals</h3>
 
-        <p>24/7 Support...</p>
+        <p data-aos="fade-up"
+        data-aos-duration="3000">24/7 Support...</p>
 
         <h4>Easy steps for renting a car  <i class="fa-solid fa-arrow-turn-down"></i></h4> <br> 
 
@@ -89,36 +113,117 @@
 
 
 
+ <!--==================== footer  cording start from here   ===================== -->
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+        
+ <footer id="footer">
+
+    <section>
+
+    <div class="footer-div">
+
+        <ul>
+            <h2 class="footer-carbook">CAR<span>BOOK</span></h2>
+            <p>Far far away, behind the word mountains, 
+                <br> far from the countries Vokalia and Consonantia, 
+                <br> there live the blind texts...</p>
+
+             <br>
+                    <p></i>&nbsp;  &nbsp; &nbsp; &nbsp;Follow Us On...</p> <br>
+                    &nbsp;  &nbsp; &nbsp;  <a href="https://www.instagram.com/accounts/login"> <i class="fa-brands fa-instagram"  data-aos="fade-right"></i> </a> 
+                    &nbsp;   &nbsp; &nbsp; <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook" data-aos="flip-right"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"></i> </a> 
+                    &nbsp;  &nbsp; &nbsp;   <a href="https://web.telegram.org/index.html"> <i class="fa-brands fa-telegram"  data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"></i></a> 
+                    &nbsp;  &nbsp; &nbsp; &nbsp;   <a href="https://x.com/i/flow/login"><i class="fa-brands fa-square-twitter" data-aos="fade-left"></i></a>
+                
+        </ul>
+
+        <ul>
+            <h2 >Information</h2>  
+
+           <div class="footer-a">
+            <a href="">about</a> 
+            <a href="">about</a>
+            <a href="">about</a>
+            <a href="">about</a>
+            <a href="">about</a>
+            <a href="">about</a>
+        </div>
+           
+
+        </ul>
+
+
+        <ul>
+
+
+            <h2 >Customer Support</h2>  
+
+            <div class="footer-a">
+             <a href="">FAQ
+            </a> 
+            
+             <a href="">Payment Option
+            </a>
+             <a href="">Booking Tips
+            </a>
+             <a href="">How it works
+            </a>
+             <a href="">Contact Us</a>
+         </div>
+        </ul>
+
+        <ul>
+            <h2 >Have a Questions?</h2>  
+
+           <div class="footer-a">
+            <a href="">	203 Fake St. Mountain View, <br> San Francisco, California, USA</a> 
+            <a href="">	+2 392 3929 210</a>
+            <a href="">	info@yourdomain.com</a>
+           
+        </div>
+
+        </ul>
+
+    </div>
+
+    </section>
+
+</footer>
+
+<!--==================== footer  cording end from here   ===================== -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
 <!-- </div> -->
 
- <!--====================  this is swiper link   ===================== -->
+<!--====================  this is swiper link   ===================== -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
- <!--====================  this is swiper link   ===================== -->
+<!--====================  this is swiper link   ===================== -->
 
- <!--====================  this is js  link   ===================== -->
+<!--====================  AOS link   ===================== -->
 
-    <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-     <!--====================  this is js link   ===================== -->
-     
+
+<script>
+AOS.init();
+</script>
+
+<!--====================  AOS link   ===================== -->
+
+
+
+<!--====================  this is js  link   ===================== -->
+
+<script src="script.js"></script>
+
+<!--====================  this is js link   ===================== -->
+
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
