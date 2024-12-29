@@ -111,7 +111,7 @@ else if(pass != cpass){
 localStorage.setItem("username",namee)
 localStorage.setItem("usernumber",number)
 localStorage.setItem("useremail",email)
-localStorage.setItem("userpassward",pass)
+localStorage.setItem("userpassword",pass)
 localStorage.setItem("usercpass",cpass)
 
 
