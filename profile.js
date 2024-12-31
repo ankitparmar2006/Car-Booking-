@@ -21,7 +21,7 @@ let data1=document.querySelector(".data1")
 
  
 let data4=document.querySelector(".data4")
-let ans4=localStorage.getItem("userpassward")
+let ans4=localStorage.getItem("userpassword")
 data4.innerHTML=`Your password is =`+ans4;
 
 

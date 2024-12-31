@@ -9,7 +9,7 @@ let login=()=>{
 let checkname=localStorage.getItem("username")
 let checkpass=localStorage.getItem("userpassword")
 
-if (loginname===checkname && loginpass ===checkpass) {
+if (loginname===checkname && loginpass===checkpass) {
 
 
     alert("login suceess")
