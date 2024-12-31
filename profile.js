@@ -9,11 +9,11 @@ let data1=document.querySelector(".data1")
  data1.innerHTML=` Your name is = `+ans1;
 
 
+
  
  let data2=document.querySelector(".data2")
  let ans2=localStorage.getItem("usernumber")
  data2.innerHTML=`Your number is = `+ans2;
-
  
  let data3=document.querySelector(".data3")
  let ans3=localStorage.getItem("useremail")
